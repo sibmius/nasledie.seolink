@@ -1,0 +1,16 @@
+.adm-nasledie{
+	padding:4px 0px 0px 0px;
+}
+.adm-nasledie .adm-main-menu-item-icon{
+	background: url(icons/nasledie.seolink/nasledie.png) no-repeat 0px 0px;
+	height:40px;
+	width:40px;
+	margin: 5px auto;
+}
+.adm-nasledie.adm-main-menu-item-active .adm-main-menu-item-icon,
+.adm-nasledie:hover .adm-main-menu-item-icon{
+	background: url(icons/nasledie.seolink/nasledie.png) no-repeat 0px -40px;
+	height:40px;
+	width:40px;
+	margin: 5px auto;
+}
